@@ -213,7 +213,7 @@ enum {
 };
 
 struct source {
-  class process process;
+  class process& process;
   int interests;
   int events;
 };
